@@ -1,5 +1,6 @@
 img ="";
 status = "";
+objects = [];
 function setup() {
 canvas = createCanvas(640,420);
 canvas.center();
@@ -46,5 +47,6 @@ if(error){
 }
 else{
     console.log(results);
+    objects = results;
 }
 }
