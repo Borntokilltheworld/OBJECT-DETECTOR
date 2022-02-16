@@ -10,7 +10,7 @@ objectDetector = ml5.objectDetector('cocossd',modelLoaded);
 document.getElementById("status").innerHTML = "Object is being detected by COCO SSD";
 }
 function preload(){
-   img = loadImage('dog_cat.jpg');
+  
 }
 function draw(){
     image(video,0,0,380,380);
